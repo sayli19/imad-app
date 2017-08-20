@@ -9,4 +9,5 @@ submit.onClick = function()
     for(var i=0;i<=names.length;i++)
 '<li>' +names[i]+ '</li>'  ;
 }
-var ul = 
+var ul = document.getElementById('nameslist');
+ul.innerHTML = 'list';
